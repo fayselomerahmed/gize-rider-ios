@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app-1-1091106294515-ios-87e9bafcc8b94a2c714586</string>
+			</array>
+		</dict>
+	</array>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneClassName</key>
+					<string>UIWindowScene</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>yellow</string>
+		<key>UIImageName</key>
+		<string>logo</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Gize uses your location to show your pickup point, nearby drivers, and trip progress.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Gize uses background location only during active trips so your driver can reach you reliably.</string>
+	<key>GizeNotificationProxyURL</key>
+	<string>https://example.invalid/notifications</string>
+	<key>GizeNotificationProxyAPIKey</key>
+	<string></string>
+	<key>GizeLegacyFCMServerKey</key>
+	<string></string>
+</dict>
+</plist>

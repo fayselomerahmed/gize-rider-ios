@@ -1,0 +1,39 @@
+# Xcode and generated output
+.DS_Store
+build/
+build-*/
+DerivedData/
+DeviceDerivedData/
+outputs/
+xcuserdata/
+*.xcuserstate
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.key
+# Dependencies and local environments
+Pods/
+node_modules/
+.build/
+.venv/
+venv/
+__pycache__/
+*.pyc
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+Secrets.local.xcconfig
+LocalAPIKeys.swift
+GoogleService-Info.plist
+serviceAccountKey.json
+*service-account*.json
+access_token.txt
+server-secrets/
+# Local data
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+

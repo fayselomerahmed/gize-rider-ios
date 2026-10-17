@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950818800EE7DCB5A1059639 /* Pods_GizeTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E0D8B6024E4C503FFA1320 /* Pods_GizeTransport.framework */; };
+		CE09E3CF2ADC3E6C00AFA8AE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09E3CE2ADC3E6C00AFA8AE /* RatingView.swift */; };
+		CE0B7DDF2AE798A800FDD722 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B7DDE2AE798A800FDD722 /* UserProfileView.swift */; };
+		CE0E091C2B1E047D001DD5E2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E091B2B1E047D001DD5E2 /* Accelerate.framework */; };
+		CE0E091E2B1E048C001DD5E2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E091D2B1E048C001DD5E2 /* CoreData.framework */; };
+		CE0E09202B1E0495001DD5E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E091F2B1E0495001DD5E2 /* CoreGraphics.framework */; };
+		CE0E09222B1E049C001DD5E2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09212B1E049C001DD5E2 /* CoreImage.framework */; };
+		CE0E09242B1E04A9001DD5E2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09232B1E04A9001DD5E2 /* CoreLocation.framework */; };
+		CE0E09282B1E04C4001DD5E2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09272B1E04C4001DD5E2 /* CoreText.framework */; };
+		CE0E092A2B1E04D0001DD5E2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09292B1E04D0001DD5E2 /* GLKit.framework */; };
+		CE0E092C2B1E04DD001DD5E2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E092B2B1E04DD001DD5E2 /* ImageIO.framework */; };
+		CE0E09302B1E050D001DD5E2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E092F2B1E050D001DD5E2 /* libz.tbd */; };
+		CE0E09322B1E0515001DD5E2 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09312B1E0515001DD5E2 /* Metal.framework */; };
+		CE0E09342B1E051E001DD5E2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09332B1E051E001DD5E2 /* OpenGLES.framework */; };
+		CE0E09382B1E0535001DD5E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09372B1E0535001DD5E2 /* SystemConfiguration.framework */; };
+		CE0E093A2B1E053C001DD5E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09392B1E053B001DD5E2 /* UIKit.framework */; };
+		CE14388029D5F0FB008A3459 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14387F29D5F0FB008A3459 /* AuthViewModel.swift */; };
+		CE1565112B1E1DEE00C534FD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09252B1E04BE001DD5E2 /* CoreTelephony.framework */; };
+		CE16240D2BEAAE4700891988 /* EmergencyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16240C2BEAAE4700891988 /* EmergencyButton.swift */; };
+		CE1736BF2A631A6800EF7284 /* TripLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1736BE2A631A6800EF7284 /* TripLoadingView.swift */; };
+		CE1736C12A631B1200EF7284 /* TripAcceptedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1736C02A631B1200EF7284 /* TripAcceptedView.swift */; };
+		CE1FB7162ADAE2F200BA0D31 /* TripSerivice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB7152ADAE2F200BA0D31 /* TripSerivice.swift */; };
+		CE205EF52A2FA3B600976003 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE205EF42A2FA3B600976003 /* Trip.swift */; };
+		CE208D6E2C14DD2300929DB5 /* NotificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE208D6D2C14DD2300929DB5 /* NotificationCard.swift */; };
+		CE25328D2AD187BE00ADD41D /* Preorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25328C2AD187BE00ADD41D /* Preorder.swift */; };
+		CE2626942A64105F00F25B31 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2626932A64105F00F25B31 /* Spinner.swift */; };
+		CE289F7329D34E9A007E9489 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE289F7229D34E9A007E9489 /* LogInView.swift */; };
+		CE289F7529D34EA7007E9489 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE289F7429D34EA7007E9489 /* RegistrationView.swift */; };
+		CE2C203E295E14880019BF21 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2023295E14880019BF21 /* UberMapViewRepresentable.swift */; };
+		CE2C203F295E14880019BF21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2024295E14880019BF21 /* HomeView.swift */; };
+		CE2C2040295E14880019BF21 /* MapViewActionButtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2025295E14880019BF21 /* MapViewActionButtion.swift */; };
+		CE2C2042295E14880019BF21 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C202A295E14880019BF21 /* LocationSearchViewModel.swift */; };
+		CE2C2043295E14880019BF21 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C202B295E14880019BF21 /* LocationSearchView.swift */; };
+		CE2C2044295E14880019BF21 /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C202D295E14880019BF21 /* LocationSearchActivationView.swift */; };
+		CE2C2045295E14880019BF21 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C202E295E14880019BF21 /* LocationSearchResultCell.swift */; };
+		CE2C2046295E14880019BF21 /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2030295E14880019BF21 /* Drawer.swift */; };
+		CE2C2047295E14880019BF21 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2031295E14880019BF21 /* Home.swift */; };
+		CE2C2048295E14880019BF21 /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2033295E14880019BF21 /* RideType.swift */; };
+		CE2C2049295E14880019BF21 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2034295E14880019BF21 /* MapViewState.swift */; };
+		CE2C204D295E14880019BF21 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C203B295E14880019BF21 /* LocationManager.swift */; };
+		CE2C204E295E14880019BF21 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C203D295E14880019BF21 /* Double.swift */; };
+		CE2DBD9F2BBB3DF5007DBF72 /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFACA3E2A477FBB00B58CED /* GeoPoint.swift */; };
+		CE2E130029D9A399003C662A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E12FF29D9A399003C662A /* User.swift */; };
+		CE2E130729D9C76C003C662A /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E130629D9C76C003C662A /* SideMenuView.swift */; };
+		CE3052AA2A6C151C00E64DFA /* PickupPassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3052A92A6C151C00E64DFA /* PickupPassengerView.swift */; };
+		CE3052AF2A6C6F8F00E64DFA /* TripCancelledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3052AE2A6C6F8F00E64DFA /* TripCancelledView.swift */; };
+		CE35419129D389230020EECA /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35419029D389230020EECA /* CustomInputField.swift */; };
+		CE3823DF2AD3008A00006017 /* PreOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3823DE2AD3008A00006017 /* PreOrderView.swift */; };
+		CE3823E52AD320C600006017 /* AcceptTripViewPreOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3823E42AD320C600006017 /* AcceptTripViewPreOrder.swift */; };
+		CE3C6D522AD8127B0053CAEF /* PreorderSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6D512AD8127B0053CAEF /* PreorderSuccessView.swift */; };
+		CE3C6D5C2AD863630053CAEF /* TripStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6D5B2AD863630053CAEF /* TripStartedView.swift */; };
+		CE3C6D5E2AD863940053CAEF /* RideInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6D5D2AD863940053CAEF /* RideInProgressView.swift */; };
+		CE3C6D602AD86A670053CAEF /* DriverInProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6D5F2AD86A670053CAEF /* DriverInProgress.swift */; };
+		CE3CDBC629DC7CAA0039D0C0 /* SavedLocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDBC529DC7CAA0039D0C0 /* SavedLocationSearchView.swift */; };
+		CE3CDBC829DC86C80039D0C0 /* LocationSearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDBC729DC86C80039D0C0 /* LocationSearchResultsView.swift */; };
+		CE3CDBCA29DCA9CB0039D0C0 /* SavedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDBC929DCA9CB0039D0C0 /* SavedLocation.swift */; };
+		CE3CDBCC29DCBABA0039D0C0 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDBCB29DCBABA0039D0C0 /* DeveloperPreview.swift */; };
+		CE441A5E2CE61A7000020004 /* LocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A5D2CE61A7000020004 /* LocationPickerView.swift */; };
+		CE441A602CE61AB900020004 /* LocationPickerWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A5F2CE61AB900020004 /* LocationPickerWrapperView.swift */; };
+		CE48FBC929F138F00082EFC8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48FBC829F138F00082EFC8 /* HomeViewModel.swift */; };
+		CE6125752AD0675F003AF927 /* TripHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6125742AD0675F003AF927 /* TripHistoryView.swift */; };
+		CE6125772AD074BD003AF927 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6125762AD074BD003AF927 /* Notification.swift */; };
+		CE6249F92C04E80D008B1BE1 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249F82C04E80D008B1BE1 /* FirebaseService.swift */; };
+		CE73667829DB40F1006B8099 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73667729DB40F1006B8099 /* SettingsView.swift */; };
+		CE73667A29DB4A73006B8099 /* SavedLocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73667929DB4A73006B8099 /* SavedLocationRowView.swift */; };
+		CE73667C29DB4C5C006B8099 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73667B29DB4C5C006B8099 /* SettingsRowView.swift */; };
+		CE73667E29DB583E006B8099 /* SavedLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73667D29DB583E006B8099 /* SavedLocationViewModel.swift */; };
+		CE754A7D2BC15EE900AFB4B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE754A7C2BC15EE900AFB4B9 /* GoogleService-Info.plist */; };
+		CE754AA82BC1EDB500AFB4B9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E092D2B1E04FE001DD5E2 /* libc++.tbd */; };
+		CE754AAA2BC1EDC700AFB4B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E09352B1E052C001DD5E2 /* QuartzCore.framework */; };
+		CE7C04612956174E005C1E09 /* GizeTransportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C04602956174E005C1E09 /* GizeTransportApp.swift */; };
+		CE7C04A2295618C6005C1E09 /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C0471295618C5005C1E09 /* RideRequestView.swift */; };
+		CEA26A742CEA2AB90085A418 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA26A732CEA2AB90085A418 /* AlertItem.swift */; };
+		CEA26A762CEA2BF40085A418 /* AlertContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA26A752CEA2BF40085A418 /* AlertContext.swift */; };
+		CEA65FBF29D9FC60005E75AE /* SideMenuOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA65FBE29D9FC60005E75AE /* SideMenuOptionViewModel.swift */; };
+		CEA65FC129D9FE29005E75AE /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA65FC029D9FE29005E75AE /* SideMenuOptionView.swift */; };
+		CEAB49FF2A28E826000E424F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB49FE2A28E826000E424F /* UserService.swift */; };
+		CEAB4A012A2925B5000E424F /* AcceptTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB4A002A2925B5000E424F /* AcceptTripView.swift */; };
+		CEACBA492CC5562100A33555 /* AccessTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACBA482CC5562100A33555 /* AccessTokenManager.swift */; };
+		CEB0AE052A43107D00AEEF3E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0AE042A43107D00AEEF3E /* Color.swift */; };
+		CEB0AE072A43697300AEEF3E /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0AE062A43697300AEEF3E /* UberLocation.swift */; };
+		CEB2B27B2CBBEB2E003C539A /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB2B27A2CBBEB2E003C539A /* FirebaseCore.framework */; };
+		CEB2B27D2CBBEB41003C539A /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB2B27C2CBBEB41003C539A /* FirebaseFirestore.framework */; };
+		CEC2A4A92A24FBEB00B4491F /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2A4A82A24FBEB00B4491F /* DriverAnnotation.swift */; };
+		CEC38F422BD90D9000997566 /* cancellationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC38F412BD90D9000997566 /* cancellationView.swift */; };
+		CEC7CABA2BB379B500A41259 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBC39432A90B952002BB40D /* Asset.xcassets */; };
+		CEC7CABB2BB379B800A41259 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = CE269EAD2A8E7ECB00BD419C /* Preview Content */; };
+		CEE219802BF8B5BD00B0E575 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2197F2BF8B5BD00B0E575 /* LoadingView.swift */; };
+		CEE219852BF8C1E900B0E575 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE219832BF8C16500B0E575 /* NetworkManager.swift */; };
+		CEF8F3492C19C1D600531F7A /* TripCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F3482C19C1D500531F7A /* TripCompletedView.swift */; };
+		CEFD16272A9B63B2002F92D9 /* TripDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD16262A9B63B2002F92D9 /* TripDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01363E00CF8D84F2680B1A5B /* Pods-GizeTransport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GizeTransport.debug.xcconfig"; path = "Target Support Files/Pods-GizeTransport/Pods-GizeTransport.debug.xcconfig"; sourceTree = "<group>"; };
+		70E0D8B6024E4C503FFA1320 /* Pods_GizeTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GizeTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE09E3CE2ADC3E6C00AFA8AE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		CE0B4E9E2B32376C00AFAFDF /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B4EA22B323B2300AFAFDF /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B4EA62B323B4D00AFAFDF /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B4EAA2B323C0700AFAFDF /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B4EAE2B323C0D00AFAFDF /* FirebaseSharedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseSharedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B4EB12B323CA700AFAFDF /* FirebaseFirestoreSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestoreSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B4EB52B3244C600AFAFDF /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B7DDE2AE798A800FDD722 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		CE0E091B2B1E047D001DD5E2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CE0E091D2B1E048C001DD5E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE0E091F2B1E0495001DD5E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE0E09212B1E049C001DD5E2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CE0E09232B1E04A9001DD5E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE0E09252B1E04BE001DD5E2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CE0E09272B1E04C4001DD5E2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CE0E09292B1E04D0001DD5E2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE0E092B2B1E04DD001DD5E2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		CE0E092D2B1E04FE001DD5E2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CE0E092F2B1E050D001DD5E2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CE0E09312B1E0515001DD5E2 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		CE0E09332B1E051E001DD5E2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE0E09352B1E052C001DD5E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE0E09372B1E0535001DD5E2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE0E09392B1E053B001DD5E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE14387F29D5F0FB008A3459 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CE16240C2BEAAE4700891988 /* EmergencyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyButton.swift; sourceTree = "<group>"; };
+		CE1736BE2A631A6800EF7284 /* TripLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripLoadingView.swift; sourceTree = "<group>"; };
+		CE1736C02A631B1200EF7284 /* TripAcceptedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAcceptedView.swift; sourceTree = "<group>"; };
+		CE1FB7152ADAE2F200BA0D31 /* TripSerivice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSerivice.swift; sourceTree = "<group>"; };
+		CE205EF42A2FA3B600976003 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		CE208D6D2C14DD2300929DB5 /* NotificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCard.swift; sourceTree = "<group>"; };
+		CE25328C2AD187BE00ADD41D /* Preorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preorder.swift; sourceTree = "<group>"; };
+		CE2626932A64105F00F25B31 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		CE269EAD2A8E7ECB00BD419C /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; path = "GizeTransport/Views/Preview Content"; sourceTree = "<group>"; };
+		CE289F7229D34E9A007E9489 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		CE289F7429D34EA7007E9489 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CE2C2023295E14880019BF21 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
+		CE2C2024295E14880019BF21 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE2C2025295E14880019BF21 /* MapViewActionButtion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewActionButtion.swift; sourceTree = "<group>"; };
+		CE2C202A295E14880019BF21 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		CE2C202B295E14880019BF21 /* LocationSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		CE2C202D295E14880019BF21 /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		CE2C202E295E14880019BF21 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		CE2C2030295E14880019BF21 /* Drawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
+		CE2C2031295E14880019BF21 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CE2C2033295E14880019BF21 /* RideType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
+		CE2C2034295E14880019BF21 /* MapViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		CE2C203B295E14880019BF21 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CE2C203D295E14880019BF21 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		CE2E12FF29D9A399003C662A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE2E130629D9C76C003C662A /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		CE3052A92A6C151C00E64DFA /* PickupPassengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupPassengerView.swift; sourceTree = "<group>"; };
+		CE3052AE2A6C6F8F00E64DFA /* TripCancelledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCancelledView.swift; sourceTree = "<group>"; };
+		CE35419029D389230020EECA /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		CE3823DE2AD3008A00006017 /* PreOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderView.swift; sourceTree = "<group>"; };
+		CE3823E42AD320C600006017 /* AcceptTripViewPreOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptTripViewPreOrder.swift; sourceTree = "<group>"; };
+		CE3C6D512AD8127B0053CAEF /* PreorderSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreorderSuccessView.swift; sourceTree = "<group>"; };
+		CE3C6D5B2AD863630053CAEF /* TripStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripStartedView.swift; sourceTree = "<group>"; };
+		CE3C6D5D2AD863940053CAEF /* RideInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideInProgressView.swift; sourceTree = "<group>"; };
+		CE3C6D5F2AD86A670053CAEF /* DriverInProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverInProgress.swift; sourceTree = "<group>"; };
+		CE3CDBC529DC7CAA0039D0C0 /* SavedLocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationSearchView.swift; sourceTree = "<group>"; };
+		CE3CDBC729DC86C80039D0C0 /* LocationSearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsView.swift; sourceTree = "<group>"; };
+		CE3CDBC929DCA9CB0039D0C0 /* SavedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocation.swift; sourceTree = "<group>"; };
+		CE3CDBCB29DCBABA0039D0C0 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		CE441A5D2CE61A7000020004 /* LocationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerView.swift; sourceTree = "<group>"; };
+		CE441A5F2CE61AB900020004 /* LocationPickerWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerWrapperView.swift; sourceTree = "<group>"; };
+		CE48FBC829F138F00082EFC8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CE6125742AD0675F003AF927 /* TripHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryView.swift; sourceTree = "<group>"; };
+		CE6125762AD074BD003AF927 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		CE6249F82C04E80D008B1BE1 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		CE73667729DB40F1006B8099 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE73667929DB4A73006B8099 /* SavedLocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationRowView.swift; sourceTree = "<group>"; };
+		CE73667B29DB4C5C006B8099 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		CE73667D29DB583E006B8099 /* SavedLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationViewModel.swift; sourceTree = "<group>"; };
+		CE754A7C2BC15EE900AFB4B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE754A7E2BC1DCB500AFB4B9 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE754A7F2BC1DCB500AFB4B9 /* GoogleDataTransport_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GoogleDataTransport_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE754A822BC1DCB500AFB4B9 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE754A832BC1DCB500AFB4B9 /* GoogleUtilities_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE754AB12BC1F08200AFB4B9 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE754AB32BC1F08200AFB4B9 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7C045D2956174E005C1E09 /* GizeTransport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GizeTransport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7C04602956174E005C1E09 /* GizeTransportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizeTransportApp.swift; sourceTree = "<group>"; };
+		CE7C0471295618C5005C1E09 /* RideRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
+		CEA24E622B3325FC004BB90D /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E632B3325FC004BB90D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E642B3325FC004BB90D /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E652B3325FC004BB90D /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E662B3325FC004BB90D /* FirebaseSharedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseSharedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E722B33260A004BB90D /* GeoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GeoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E752B332659004BB90D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E792B3326FF004BB90D /* FirebaseSharedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseSharedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E7D2B33272C004BB90D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E812B332830004BB90D /* FirebaseFirestoreSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestoreSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24E852B332DD4004BB90D /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24EAB2B3340C1004BB90D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24EAF2B334227004BB90D /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24EB32B334262004BB90D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24EB72B3343B1004BB90D /* FirebaseFirestoreSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestoreSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24EBB2B334938004BB90D /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA24EBF2B33494A004BB90D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA26A732CEA2AB90085A418 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		CEA26A752CEA2BF40085A418 /* AlertContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContext.swift; sourceTree = "<group>"; };
+		CEA65FBE29D9FC60005E75AE /* SideMenuOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionViewModel.swift; sourceTree = "<group>"; };
+		CEA65FC029D9FE29005E75AE /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		CEAB49FE2A28E826000E424F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		CEAB4A002A2925B5000E424F /* AcceptTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptTripView.swift; sourceTree = "<group>"; };
+		CEACBA462CC54EDB00A33555 /* get_access_token.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = get_access_token.py; sourceTree = "<group>"; };
+		CEACBA482CC5562100A33555 /* AccessTokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenManager.swift; sourceTree = "<group>"; };
+		CEB0AE042A43107D00AEEF3E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CEB0AE062A43697300AEEF3E /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
+		CEB2B26F2CBBEABA003C539A /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB2B2732CBBEAF1003C539A /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB2B2772CBBEAFA003C539A /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB2B27A2CBBEB2E003C539A /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB2B27C2CBBEB41003C539A /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBC39432A90B952002BB40D /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		CEC2A4A82A24FBEB00B4491F /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		CEC38F412BD90D9000997566 /* cancellationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cancellationView.swift; sourceTree = "<group>"; };
+		CEC7CB792BB4A9AE00A41259 /* GizeTransport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GizeTransport.entitlements; sourceTree = "<group>"; };
+		CED97A642B2CA6DD007D9B4D /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED97A7E2B2CB0AD007D9B4D /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE2197F2BF8B5BD00B0E575 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CEE219832BF8C16500B0E575 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CEEE1A952B2BB93200A554D4 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEE1A992B2BB94000A554D4 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEE1A9A2B2BB94000A554D4 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEE1A9B2B2BB94000A554D4 /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEE1AA22B2BC4EA00A554D4 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF8F3482C19C1D500531F7A /* TripCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCompletedView.swift; sourceTree = "<group>"; };
+		CEFACA3E2A477FBB00B58CED /* GeoPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPoint.swift; sourceTree = "<group>"; };
+		CEFD16262A9B63B2002F92D9 /* TripDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripDetailsView.swift; sourceTree = "<group>"; };
+		CEFFD1AB2B25B838001281F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GizeTransport/Info.plist; sourceTree = "<group>"; };
+		D2D5C45A218A827D2080BF43 /* Pods-GizeTransport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GizeTransport.release.xcconfig"; path = "Target Support Files/Pods-GizeTransport/Pods-GizeTransport.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7C045A2956174E005C1E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB2B27D2CBBEB41003C539A /* FirebaseFirestore.framework in Frameworks */,
+				CEB2B27B2CBBEB2E003C539A /* FirebaseCore.framework in Frameworks */,
+				CE754AAA2BC1EDC700AFB4B9 /* QuartzCore.framework in Frameworks */,
+				CE1565112B1E1DEE00C534FD /* CoreTelephony.framework in Frameworks */,
+				CE0E093A2B1E053C001DD5E2 /* UIKit.framework in Frameworks */,
+				CE0E09382B1E0535001DD5E2 /* SystemConfiguration.framework in Frameworks */,
+				CE754AA82BC1EDB500AFB4B9 /* libc++.tbd in Frameworks */,
+				CE0E09342B1E051E001DD5E2 /* OpenGLES.framework in Frameworks */,
+				CE0E09322B1E0515001DD5E2 /* Metal.framework in Frameworks */,
+				CE0E09302B1E050D001DD5E2 /* libz.tbd in Frameworks */,
+				CE0E092C2B1E04DD001DD5E2 /* ImageIO.framework in Frameworks */,
+				CE0E092A2B1E04D0001DD5E2 /* GLKit.framework in Frameworks */,
+				CE0E09282B1E04C4001DD5E2 /* CoreText.framework in Frameworks */,
+				CE0E09242B1E04A9001DD5E2 /* CoreLocation.framework in Frameworks */,
+				CE0E09222B1E049C001DD5E2 /* CoreImage.framework in Frameworks */,
+				CE0E09202B1E0495001DD5E2 /* CoreGraphics.framework in Frameworks */,
+				CE0E091E2B1E048C001DD5E2 /* CoreData.framework in Frameworks */,
+				CE0E091C2B1E047D001DD5E2 /* Accelerate.framework in Frameworks */,
+				950818800EE7DCB5A1059639 /* Pods_GizeTransport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18834730DB550C0FFF1A2358 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01363E00CF8D84F2680B1A5B /* Pods-GizeTransport.debug.xcconfig */,
+				D2D5C45A218A827D2080BF43 /* Pods-GizeTransport.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE0B7DDD2AE7986900FDD722 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B7DDE2AE798A800FDD722 /* UserProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CE14388129D60542008A3459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB2B27C2CBBEB41003C539A /* FirebaseFirestore.framework */,
+				CEB2B27A2CBBEB2E003C539A /* FirebaseCore.framework */,
+				CEB2B2772CBBEAFA003C539A /* FirebaseFirestore.framework */,
+				CEB2B2732CBBEAF1003C539A /* FirebaseCore.framework */,
+				CEB2B26F2CBBEABA003C539A /* FirebaseStorage.framework */,
+				CE754AB12BC1F08200AFB4B9 /* GoogleDataTransport.framework */,
+				CE754AB32BC1F08200AFB4B9 /* GoogleUtilities.framework */,
+				CE754A7E2BC1DCB500AFB4B9 /* GoogleDataTransport.framework */,
+				CE754A7F2BC1DCB500AFB4B9 /* GoogleDataTransport_Privacy.bundle */,
+				CE754A822BC1DCB500AFB4B9 /* GoogleUtilities.framework */,
+				CE754A832BC1DCB500AFB4B9 /* GoogleUtilities_Privacy.bundle */,
+				CEA24EBF2B33494A004BB90D /* FirebaseCore.framework */,
+				CEA24EBB2B334938004BB90D /* FirebaseAuth.framework */,
+				CEA24EB72B3343B1004BB90D /* FirebaseFirestoreSwift.framework */,
+				CEA24EB32B334262004BB90D /* FirebaseCore.framework */,
+				CEA24EAF2B334227004BB90D /* FirebaseFirestore.framework */,
+				CEA24EAB2B3340C1004BB90D /* FirebaseCore.framework */,
+				CEA24E852B332DD4004BB90D /* FirebaseAuth.framework */,
+				CEA24E812B332830004BB90D /* FirebaseFirestoreSwift.framework */,
+				CEA24E7D2B33272C004BB90D /* FirebaseCore.framework */,
+				CEA24E792B3326FF004BB90D /* FirebaseSharedSwift.framework */,
+				CEA24E752B332659004BB90D /* FirebaseCore.framework */,
+				CEA24E722B33260A004BB90D /* GeoFire.framework */,
+				CEA24E622B3325FC004BB90D /* FirebaseAppCheckInterop.framework */,
+				CEA24E632B3325FC004BB90D /* FirebaseCore.framework */,
+				CEA24E642B3325FC004BB90D /* FirebaseCoreInternal.framework */,
+				CEA24E652B3325FC004BB90D /* FirebaseDatabase.framework */,
+				CEA24E662B3325FC004BB90D /* FirebaseSharedSwift.framework */,
+				CE0B4EB52B3244C600AFAFDF /* FirebaseCore.framework */,
+				CE0B4EB12B323CA700AFAFDF /* FirebaseFirestoreSwift.framework */,
+				CE0B4EAE2B323C0D00AFAFDF /* FirebaseSharedSwift.framework */,
+				CE0B4EAA2B323C0700AFAFDF /* FirebaseFirestore.framework */,
+				CE0B4EA62B323B4D00AFAFDF /* FirebaseCore.framework */,
+				CE0B4EA22B323B2300AFAFDF /* FirebaseFirestore.framework */,
+				CE0B4E9E2B32376C00AFAFDF /* FirebaseAuth.framework */,
+				CED97A7E2B2CB0AD007D9B4D /* FirebaseCore.framework */,
+				CED97A642B2CA6DD007D9B4D /* FirebaseFirestore.framework */,
+				CEEE1AA22B2BC4EA00A554D4 /* FirebaseFirestore.framework */,
+				CEEE1A992B2BB94000A554D4 /* FirebaseDatabase.framework */,
+				CEEE1A9A2B2BB94000A554D4 /* FirebaseFirestore.framework */,
+				CEEE1A9B2B2BB94000A554D4 /* FirebaseStorage.framework */,
+				CEEE1A952B2BB93200A554D4 /* FirebaseAuth.framework */,
+				CE0E09392B1E053B001DD5E2 /* UIKit.framework */,
+				CE0E09372B1E0535001DD5E2 /* SystemConfiguration.framework */,
+				CE0E09352B1E052C001DD5E2 /* QuartzCore.framework */,
+				CE0E09332B1E051E001DD5E2 /* OpenGLES.framework */,
+				CE0E09312B1E0515001DD5E2 /* Metal.framework */,
+				CE0E092F2B1E050D001DD5E2 /* libz.tbd */,
+				CE0E092D2B1E04FE001DD5E2 /* libc++.tbd */,
+				CE0E092B2B1E04DD001DD5E2 /* ImageIO.framework */,
+				CE0E09292B1E04D0001DD5E2 /* GLKit.framework */,
+				CE0E09272B1E04C4001DD5E2 /* CoreText.framework */,
+				CE0E09252B1E04BE001DD5E2 /* CoreTelephony.framework */,
+				CE0E09232B1E04A9001DD5E2 /* CoreLocation.framework */,
+				CE0E09212B1E049C001DD5E2 /* CoreImage.framework */,
+				CE0E091F2B1E0495001DD5E2 /* CoreGraphics.framework */,
+				CE0E091D2B1E048C001DD5E2 /* CoreData.framework */,
+				CE0E091B2B1E047D001DD5E2 /* Accelerate.framework */,
+				70E0D8B6024E4C503FFA1320 /* Pods_GizeTransport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE289F6F29D34E51007E9489 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CE289F7129D34E6F007E9489 /* ViewModels */,
+				CE289F7029D34E64007E9489 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CE289F7029D34E64007E9489 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE289F7229D34E9A007E9489 /* LogInView.swift */,
+				CE289F7429D34EA7007E9489 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE289F7129D34E6F007E9489 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE14387F29D5F0FB008A3459 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE2C201F295E14880019BF21 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CE73667229DB4086006B8099 /* Settings */,
+				CE2E130329D9C740003C662A /* SideMenu */,
+				CE289F6F29D34E51007E9489 /* Authentication */,
+				CE2C2020295E14880019BF21 /* Home */,
+				CE2C2028295E14880019BF21 /* LocationSearch */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE2C2020295E14880019BF21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C2021295E14880019BF21 /* ViewModel */,
+				CE2C2022295E14880019BF21 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE2C2021295E14880019BF21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE48FBC829F138F00082EFC8 /* HomeViewModel.swift */,
+				CEACBA482CC5562100A33555 /* AccessTokenManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE2C2022295E14880019BF21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C2023295E14880019BF21 /* UberMapViewRepresentable.swift */,
+				CE2C2024295E14880019BF21 /* HomeView.swift */,
+				CE2C2025295E14880019BF21 /* MapViewActionButtion.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE2C2028295E14880019BF21 /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C2029295E14880019BF21 /* ViewModel */,
+				CE2C202C295E14880019BF21 /* Views */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		CE2C2029295E14880019BF21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C202A295E14880019BF21 /* LocationSearchViewModel.swift */,
+				CE441A5F2CE61AB900020004 /* LocationPickerWrapperView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE2C202C295E14880019BF21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE441A5D2CE61A7000020004 /* LocationPickerView.swift */,
+				CE2C202B295E14880019BF21 /* LocationSearchView.swift */,
+				CE2C202D295E14880019BF21 /* LocationSearchActivationView.swift */,
+				CE2C202E295E14880019BF21 /* LocationSearchResultCell.swift */,
+				CE3CDBC529DC7CAA0039D0C0 /* SavedLocationSearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE2C202F295E14880019BF21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C2030295E14880019BF21 /* Drawer.swift */,
+				CE2C2031295E14880019BF21 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE2C2032295E14880019BF21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C2033295E14880019BF21 /* RideType.swift */,
+				CE2C2034295E14880019BF21 /* MapViewState.swift */,
+				CE2E12FF29D9A399003C662A /* User.swift */,
+				CE3CDBC929DCA9CB0039D0C0 /* SavedLocation.swift */,
+				CEC2A4A82A24FBEB00B4491F /* DriverAnnotation.swift */,
+				CE205EF42A2FA3B600976003 /* Trip.swift */,
+				CEB0AE062A43697300AEEF3E /* UberLocation.swift */,
+				CEA26A732CEA2AB90085A418 /* AlertItem.swift */,
+				CEA26A752CEA2BF40085A418 /* AlertContext.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE2C203A295E14880019BF21 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C203B295E14880019BF21 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CE2C203C295E14880019BF21 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C203D295E14880019BF21 /* Double.swift */,
+				CE3CDBCB29DCBABA0039D0C0 /* DeveloperPreview.swift */,
+				CEB0AE042A43107D00AEEF3E /* Color.swift */,
+				CEFACA3E2A477FBB00B58CED /* GeoPoint.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		CE2E130329D9C740003C662A /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E130529D9C755003C662A /* Views */,
+				CE2E130429D9C749003C662A /* ViewModel */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		CE2E130429D9C749003C662A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEA65FBE29D9FC60005E75AE /* SideMenuOptionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE2E130529D9C755003C662A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E130629D9C76C003C662A /* SideMenuView.swift */,
+				CEA65FC029D9FE29005E75AE /* SideMenuOptionView.swift */,
+				CE6125742AD0675F003AF927 /* TripHistoryView.swift */,
+				CE6125762AD074BD003AF927 /* Notification.swift */,
+				CE208D6D2C14DD2300929DB5 /* NotificationCard.swift */,
+				CE25328C2AD187BE00ADD41D /* Preorder.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE3052A72A6C14C400E64DFA /* Passengers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD16262A9B63B2002F92D9 /* TripDetailsView.swift */,
+				CE7C0471295618C5005C1E09 /* RideRequestView.swift */,
+				CE1736BE2A631A6800EF7284 /* TripLoadingView.swift */,
+				CE1736C02A631B1200EF7284 /* TripAcceptedView.swift */,
+				CE3C6D512AD8127B0053CAEF /* PreorderSuccessView.swift */,
+				CE3C6D5B2AD863630053CAEF /* TripStartedView.swift */,
+				CE3C6D5D2AD863940053CAEF /* RideInProgressView.swift */,
+				CE3C6D5F2AD86A670053CAEF /* DriverInProgress.swift */,
+				CE09E3CE2ADC3E6C00AFA8AE /* RatingView.swift */,
+				CEF8F3482C19C1D500531F7A /* TripCompletedView.swift */,
+			);
+			path = Passengers;
+			sourceTree = "<group>";
+		};
+		CE3052A82A6C14CB00E64DFA /* Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB4A002A2925B5000E424F /* AcceptTripView.swift */,
+				CE3052A92A6C151C00E64DFA /* PickupPassengerView.swift */,
+				CE3823E42AD320C600006017 /* AcceptTripViewPreOrder.swift */,
+			);
+			path = Drivers;
+			sourceTree = "<group>";
+		};
+		CE3052AB2A6C6F6100E64DFA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CE3052AE2A6C6F8F00E64DFA /* TripCancelledView.swift */,
+				CEC38F412BD90D9000997566 /* cancellationView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CE35418F29D3890A0020EECA /* ResuableItems */ = {
+			isa = PBXGroup;
+			children = (
+				CE35419029D389230020EECA /* CustomInputField.swift */,
+				CE73667929DB4A73006B8099 /* SavedLocationRowView.swift */,
+				CE73667B29DB4C5C006B8099 /* SettingsRowView.swift */,
+				CE3CDBC729DC86C80039D0C0 /* LocationSearchResultsView.swift */,
+				CE2626932A64105F00F25B31 /* Spinner.swift */,
+				CE16240C2BEAAE4700891988 /* EmergencyButton.swift */,
+				CEE2197F2BF8B5BD00B0E575 /* LoadingView.swift */,
+			);
+			path = ResuableItems;
+			sourceTree = "<group>";
+		};
+		CE3823DD2AD3007D00006017 /* PreOrder */ = {
+			isa = PBXGroup;
+			children = (
+				CE3823DE2AD3008A00006017 /* PreOrderView.swift */,
+			);
+			path = PreOrder;
+			sourceTree = "<group>";
+		};
+		CE52E93A29586E560010B6E5 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				CE3052AB2A6C6F6100E64DFA /* Shared */,
+				CE3052A82A6C14CB00E64DFA /* Drivers */,
+				CE3052A72A6C14C400E64DFA /* Passengers */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		CE73667229DB4086006B8099 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CE73667629DB40B6006B8099 /* Views */,
+				CE73667529DB40AF006B8099 /* ViewModel */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CE73667529DB40AF006B8099 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE73667D29DB583E006B8099 /* SavedLocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE73667629DB40B6006B8099 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE73667729DB40F1006B8099 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE7C04542956174E005C1E09 = {
+			isa = PBXGroup;
+			children = (
+				CEACBA462CC54EDB00A33555 /* get_access_token.py */,
+				CE754A7C2BC15EE900AFB4B9 /* GoogleService-Info.plist */,
+				CEFFD1AB2B25B838001281F1 /* Info.plist */,
+				CE7C045F2956174E005C1E09 /* GizeTransport */,
+				CE7C045E2956174E005C1E09 /* Products */,
+				CEBC39432A90B952002BB40D /* Asset.xcassets */,
+				CE269EAD2A8E7ECB00BD419C /* Preview Content */,
+				CE14388129D60542008A3459 /* Frameworks */,
+				18834730DB550C0FFF1A2358 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7C045E2956174E005C1E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C045D2956174E005C1E09 /* GizeTransport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7C045F2956174E005C1E09 /* GizeTransport */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7CB792BB4A9AE00A41259 /* GizeTransport.entitlements */,
+				CE0B7DDD2AE7986900FDD722 /* Profile */,
+				CE3823DD2AD3007D00006017 /* PreOrder */,
+				CEAB49FD2A28E80A000E424F /* Services */,
+				CE7C04602956174E005C1E09 /* GizeTransportApp.swift */,
+				CE35418F29D3890A0020EECA /* ResuableItems */,
+				CE52E93A29586E560010B6E5 /* Trips */,
+				CE2C201F295E14880019BF21 /* Core */,
+				CE2C203C295E14880019BF21 /* Extenstions */,
+				CE2C203A295E14880019BF21 /* Managers */,
+				CE2C2032295E14880019BF21 /* Models */,
+				CE2C202F295E14880019BF21 /* Views */,
+				CEE219832BF8C16500B0E575 /* NetworkManager.swift */,
+			);
+			path = GizeTransport;
+			sourceTree = "<group>";
+		};
+		CEAB49FD2A28E80A000E424F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB49FE2A28E826000E424F /* UserService.swift */,
+				CE1FB7152ADAE2F200BA0D31 /* TripSerivice.swift */,
+				CE6249F82C04E80D008B1BE1 /* FirebaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7C045C2956174E005C1E09 /* GizeTransport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7C046B29561750005C1E09 /* Build configuration list for PBXNativeTarget "GizeTransport" */;
+			buildPhases = (
+				85160B5B98EADF41227F88A8 /* [CP] Check Pods Manifest.lock */,
+				CE7C04592956174E005C1E09 /* Sources */,
+				CE7C045A2956174E005C1E09 /* Frameworks */,
+				CE7C045B2956174E005C1E09 /* Resources */,
+				32FC1F55C8E900C320B66586 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GizeTransport;
+			productName = GizeTransport;
+			productReference = CE7C045D2956174E005C1E09 /* GizeTransport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7C04552956174E005C1E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CE7C045C2956174E005C1E09 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CE7C04582956174E005C1E09 /* Build configuration list for PBXProject "GizeTransport" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7C04542956174E005C1E09;
+			productRefGroup = CE7C045E2956174E005C1E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7C045C2956174E005C1E09 /* GizeTransport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7C045B2956174E005C1E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7CABB2BB379B800A41259 /* Preview Content in Resources */,
+				CEC7CABA2BB379B500A41259 /* Asset.xcassets in Resources */,
+				CE754A7D2BC15EE900AFB4B9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32FC1F55C8E900C320B66586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GizeTransport/Pods-GizeTransport-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GizeTransport/Pods-GizeTransport-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GizeTransport/Pods-GizeTransport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85160B5B98EADF41227F88A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GizeTransport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7C04592956174E005C1E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7C04A2295618C6005C1E09 /* RideRequestView.swift in Sources */,
+				CEA65FC129D9FE29005E75AE /* SideMenuOptionView.swift in Sources */,
+				CE2C2049295E14880019BF21 /* MapViewState.swift in Sources */,
+				CE48FBC929F138F00082EFC8 /* HomeViewModel.swift in Sources */,
+				CE289F7529D34EA7007E9489 /* RegistrationView.swift in Sources */,
+				CE2C204E295E14880019BF21 /* Double.swift in Sources */,
+				CEAB49FF2A28E826000E424F /* UserService.swift in Sources */,
+				CE3052AF2A6C6F8F00E64DFA /* TripCancelledView.swift in Sources */,
+				CE2C204D295E14880019BF21 /* LocationManager.swift in Sources */,
+				CEF8F3492C19C1D600531F7A /* TripCompletedView.swift in Sources */,
+				CEE219852BF8C1E900B0E575 /* NetworkManager.swift in Sources */,
+				CE2C2048295E14880019BF21 /* RideType.swift in Sources */,
+				CE2E130029D9A399003C662A /* User.swift in Sources */,
+				CE3823DF2AD3008A00006017 /* PreOrderView.swift in Sources */,
+				CE2DBD9F2BBB3DF5007DBF72 /* GeoPoint.swift in Sources */,
+				CEB0AE052A43107D00AEEF3E /* Color.swift in Sources */,
+				CE25328D2AD187BE00ADD41D /* Preorder.swift in Sources */,
+				CE6249F92C04E80D008B1BE1 /* FirebaseService.swift in Sources */,
+				CE2C2040295E14880019BF21 /* MapViewActionButtion.swift in Sources */,
+				CEAB4A012A2925B5000E424F /* AcceptTripView.swift in Sources */,
+				CE205EF52A2FA3B600976003 /* Trip.swift in Sources */,
+				CE2C203F295E14880019BF21 /* HomeView.swift in Sources */,
+				CEACBA492CC5562100A33555 /* AccessTokenManager.swift in Sources */,
+				CE2E130729D9C76C003C662A /* SideMenuView.swift in Sources */,
+				CE2C2046295E14880019BF21 /* Drawer.swift in Sources */,
+				CE441A602CE61AB900020004 /* LocationPickerWrapperView.swift in Sources */,
+				CE6125772AD074BD003AF927 /* Notification.swift in Sources */,
+				CEC2A4A92A24FBEB00B4491F /* DriverAnnotation.swift in Sources */,
+				CE1FB7162ADAE2F200BA0D31 /* TripSerivice.swift in Sources */,
+				CEA26A742CEA2AB90085A418 /* AlertItem.swift in Sources */,
+				CE2C2042295E14880019BF21 /* LocationSearchViewModel.swift in Sources */,
+				CE1736C12A631B1200EF7284 /* TripAcceptedView.swift in Sources */,
+				CE3CDBCA29DCA9CB0039D0C0 /* SavedLocation.swift in Sources */,
+				CEA65FBF29D9FC60005E75AE /* SideMenuOptionViewModel.swift in Sources */,
+				CE09E3CF2ADC3E6C00AFA8AE /* RatingView.swift in Sources */,
+				CEC38F422BD90D9000997566 /* cancellationView.swift in Sources */,
+				CEFD16272A9B63B2002F92D9 /* TripDetailsView.swift in Sources */,
+				CE2C2045295E14880019BF21 /* LocationSearchResultCell.swift in Sources */,
+				CE2C2043295E14880019BF21 /* LocationSearchView.swift in Sources */,
+				CE3C6D5C2AD863630053CAEF /* TripStartedView.swift in Sources */,
+				CE35419129D389230020EECA /* CustomInputField.swift in Sources */,
+				CE3C6D602AD86A670053CAEF /* DriverInProgress.swift in Sources */,
+				CE1736BF2A631A6800EF7284 /* TripLoadingView.swift in Sources */,
+				CEB0AE072A43697300AEEF3E /* UberLocation.swift in Sources */,
+				CE3C6D5E2AD863940053CAEF /* RideInProgressView.swift in Sources */,
+				CE441A5E2CE61A7000020004 /* LocationPickerView.swift in Sources */,
+				CE73667829DB40F1006B8099 /* SettingsView.swift in Sources */,
+				CEA26A762CEA2BF40085A418 /* AlertContext.swift in Sources */,
+				CE3052AA2A6C151C00E64DFA /* PickupPassengerView.swift in Sources */,
+				CE3CDBCC29DCBABA0039D0C0 /* DeveloperPreview.swift in Sources */,
+				CE3CDBC629DC7CAA0039D0C0 /* SavedLocationSearchView.swift in Sources */,
+				CE16240D2BEAAE4700891988 /* EmergencyButton.swift in Sources */,
+				CE208D6E2C14DD2300929DB5 /* NotificationCard.swift in Sources */,
+				CE2C203E295E14880019BF21 /* UberMapViewRepresentable.swift in Sources */,
+				CE3C6D522AD8127B0053CAEF /* PreorderSuccessView.swift in Sources */,
+				CE0B7DDF2AE798A800FDD722 /* UserProfileView.swift in Sources */,
+				CE2626942A64105F00F25B31 /* Spinner.swift in Sources */,
+				CE3CDBC829DC86C80039D0C0 /* LocationSearchResultsView.swift in Sources */,
+				CE6125752AD0675F003AF927 /* TripHistoryView.swift in Sources */,
+				CE3823E52AD320C600006017 /* AcceptTripViewPreOrder.swift in Sources */,
+				CE7C04612956174E005C1E09 /* GizeTransportApp.swift in Sources */,
+				CE2C2047295E14880019BF21 /* Home.swift in Sources */,
+				CEE219802BF8B5BD00B0E575 /* LoadingView.swift in Sources */,
+				CE73667E29DB583E006B8099 /* SavedLocationViewModel.swift in Sources */,
+				CE73667C29DB4C5C006B8099 /* SettingsRowView.swift in Sources */,
+				CE289F7329D34E9A007E9489 /* LogInView.swift in Sources */,
+				CE14388029D5F0FB008A3459 /* AuthViewModel.swift in Sources */,
+				CE2C2044295E14880019BF21 /* LocationSearchActivationView.swift in Sources */,
+				CE73667A29DB4A73006B8099 /* SavedLocationRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE7C046929561750005C1E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7C046A29561750005C1E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7C046C29561750005C1E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01363E00CF8D84F2680B1A5B /* Pods-GizeTransport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = GizeTransport/GizeTransport.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GizeTransport/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GizeTransport/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "please allow to access your location to fetch drivers";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "please allow us to access your location to find you nearby drivers.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = logo;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectacle.GizeTransport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE7C046D29561750005C1E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D5C45A218A827D2080BF43 /* Pods-GizeTransport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = GizeTransport/GizeTransport.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GizeTransport/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "please allow to access your location to fetch drivers";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "please allow us to access your location to find you nearby drivers.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = logo;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectacle.GizeTransport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7C04582956174E005C1E09 /* Build configuration list for PBXProject "GizeTransport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7C046929561750005C1E09 /* Debug */,
+				CE7C046A29561750005C1E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7C046B29561750005C1E09 /* Build configuration list for PBXNativeTarget "GizeTransport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7C046C29561750005C1E09 /* Debug */,
+				CE7C046D29561750005C1E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7C04552956174E005C1E09 /* Project object */;
+}
