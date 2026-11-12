@@ -12,6 +12,12 @@ Gize Rider is the passenger-side SwiftUI prototype in a two-app ride-sharing lea
 - Firebase Authentication, Firestore, and Firebase Messaging integration points.
 - Trip-state-driven UI for request, acceptance, arrival, cancellation, and completion.
 
+## Screenshots
+
+![Passenger ride selection screen](docs/screenshots/ride-selection-archive.png)
+
+*Archived iPhone 14 Pro simulator capture from January 2023. It shows the passenger ride-selection interface with demonstration data and records the prototype UI at that time; it is not a current-build or live-service verification.*
+
 ## How the code is organized
 
 | Area | Responsibility |
